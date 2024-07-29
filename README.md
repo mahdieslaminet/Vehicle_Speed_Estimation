@@ -9,14 +9,19 @@ This project aims to estimate vehicle speeds using video-based techniques and de
 Objectives
 
 •	Develop a robust vehicle speed estimation system using deep learning.
+
 •	Minimize errors in speed measurement by addressing environmental and calibration factors.
+
 •	Provide a comprehensive dataset and implementation details to ensure reproducibility and ease of use.
 
 Dataset
 
 The dataset includes videos collected from various highway scenes, with annotations for vehicle speeds. Key considerations for the dataset:
+
 •	Variety of lighting conditions
+
 •	Different vehicle types and sizes
+
 •	Multiple camera angles
 
 Methodology
@@ -31,17 +36,23 @@ To improve measurement accuracy, we implement robust calibration procedures and 
 Installation
 
 To set up the project, follow these steps:
+
 1.	Clone the repository:
   https://github.com/mahdieslaminet/Vehicle_Speed_Estimation.git
 2.	Install the required dependencies:
+
   pip install -r requirements.txt
 
 Usage
 
 1.	Prepare the dataset by organizing the videos and annotations in the specified format.
+
 2.	Train the model using the provided training scripts:
+
    python train_model.py --dataset_path path_to_dataset
+  	
 3.	Evaluate the model on test data:
+
 python evaluate_model.py --dataset_path path_to_test_dataset
 
 Results
@@ -51,16 +62,23 @@ The trained model demonstrates high accuracy in speed estimation with minimal er
 Examples
 
 We provide example scripts and notebooks to help you understand how to use the model and interpret the results. These examples cover:
+
 •	Loading and preprocessing the dataset
+
 •	Training the model
+
 •	Evaluating the performance
+
 •	Visualizing the results
 
 Videos
 
 All instructional videos are publicly available on Google Drive. Links to these videos are provided below:
+
 •	Training Process 
+
 •	Evaluation Process 
+
 •	Result Visualization 
 
 Contributing
@@ -70,7 +88,9 @@ We welcome contributions from the community. If you have suggestions, bug report
 References
 
 •	Yunchao Zhang et al., "Deep Learning Based Vehicle Speed Estimation on Highways"
+
 •	Kester Robert and Richard Bose, "Estimation of Optical Speed Measurement Error for Traffic"
+
 •	Additional relevant papers and documentation.
 
 License
