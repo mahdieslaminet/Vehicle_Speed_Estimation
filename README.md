@@ -58,6 +58,8 @@ Results:
 
 The trained model demonstrates high accuracy in speed estimation with minimal errors. Detailed results and performance metrics can be found in the Results section.
 
+https://drive.google.com/file/d/1zYLwgu20Pg3m-PnWeyT0HplIPsfrs6rM/view?usp=drive_link
+
 Examples:
 
 We provide example scripts and notebooks to help you understand how to use the model and interpret the results. These examples cover:
@@ -74,11 +76,11 @@ Videos:
 
 All instructional videos are publicly available on Google Drive. Links to these videos are provided below:
 
-•	Training Process 
+•	Training Process https://drive.google.com/file/d/1zYLwgu20Pg3m-PnWeyT0HplIPsfrs6rM/view?usp=drive_link
 
-•	Evaluation Process 
+•	Evaluation Process https://drive.google.com/file/d/1zYLwgu20Pg3m-PnWeyT0HplIPsfrs6rM/view?usp=drive_link
 
-•	Result Visualization 
+•	Result Visualization https://drive.google.com/file/d/1zYLwgu20Pg3m-PnWeyT0HplIPsfrs6rM/view?usp=drive_link
 
 Contributing:
 
@@ -98,5 +100,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 Contact:
 
-For any inquiries or further information, please contact Amin Bayrami Asl.
+For any inquiries or further information, please contact aminba81@gmai.com.
 
