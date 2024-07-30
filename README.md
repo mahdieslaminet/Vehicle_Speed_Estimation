@@ -87,6 +87,77 @@ Contributing:
 
 We welcome contributions from the community. If you have suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Make sure to follow the contributing guidelines.
 
+This project implements a system for estimating vehicle speed in a video using computer vision and machine learning techniques.
+
+Dependencies:
+
+The project requires the following Python libraries:
+
+OpenCV (cv2)
+NumPy (np)
+Deep SORT
+YOLOv3 object detection model
+scikit-learn (linear regression and MLPRegressor)
+TensorFlow (Keras for CNN and RNN models)
+Installation:
+
+You can install these libraries using pip:
+
+
+pip install opencv-python numpy deep_sort yolov3 tensorflow scikit-
+learn
+
+https://gemini.google.com/faq#coding
+
+Project Overview:
+
+The project performs the following steps:
+
+Video Loading and Parameter Definition:
+
+Loads the video file using OpenCV.
+Defines parameters like frames per second (FPS), distance between reference lines, and line coordinates for speed measurement.
+Object Detection and Tracking:
+
+Uses YOLOv3 to detect vehicles in each frame.
+Applies Deep SORT to track detected vehicles across frames and maintain unique IDs.
+Wheel Tracking:
+
+Employs the Good Feature to Track (GFTT) algorithm to track specific points on the vehicle (e.g., wheels) within a designated side area.
+Speed Estimation:
+
+Defines different machine learning models (Linear Regression, MLPRegressor, CNN, RNN) for speed estimation.
+Trains these models on pre-collected data (replace example data with actual training data).
+Tracks features (e.g., GFTT points) within the side area and feeds them to the chosen model for speed prediction.
+
+Results Visualization:
+
+Overlays reference lines on the video frame for speed measurement.
+Displays the estimated speed for each tracked vehicle.
+Visualizes YOLOv3 detection bounding boxes and Deep SORT track IDs.
+Running the Project
+Download the project files: Clone or download the project repository containing the Python script and any necessary model files.
+Set up the video path: Modify the video_path variable in the script to point to your video file.
+Train the machine learning models (optional): If you want to use a different model or train on your own data, modify the model definition and training sections in the script. 4. Run the script: Execute the Python script using a command like python main.py.
+
+Output:
+
+The script displays the video with speed information overlaid on each frame. It also calculates and prints the average speed of all tracked vehicles.
+
+Additional Notes:
+
+The script currently uses example data for the machine learning models. Replace this with actual training data for improved accuracy.
+You can experiment with different machine learning models and parameters for speed estimation.
+Ensure the YOLOv3 model is trained to detect vehicles and potentially wheels for better tracking.
+
+Credits:
+
+Deep SORT: 
+
+https://github.com/theAIGuysCode/yolov3_deepsort
+YOLOv3: https://github.com/eriklindernoren/PyTorch-YOLOv3
+
+
 References:
 
 •	Yunchao Zhang et al., "Deep Learning Based Vehicle Speed Estimation on Highways"
