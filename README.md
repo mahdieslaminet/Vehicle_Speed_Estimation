@@ -152,9 +152,11 @@ Ensure the YOLOv3 model is trained to detect vehicles and potentially wheels for
 
 Credits:
 
-Deep SORT: 
+Deep SORT:
+
 https://github.com/theAIGuysCode/yolov3_deepsort
 YOLOv3:
+
 https://github.com/eriklindernoren/PyTorch-YOLOv3
 
 
