@@ -155,6 +155,7 @@ Credits:
 Deep SORT:
 
 https://github.com/theAIGuysCode/yolov3_deepsort
+
 YOLOv3:
 
 https://github.com/eriklindernoren/PyTorch-YOLOv3
