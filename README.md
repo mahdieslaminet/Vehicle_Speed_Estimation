@@ -164,6 +164,10 @@ Link to the description of the code source:
 
 https://drive.google.com/file/d/1zYLwgu20Pg3m-PnWeyT0HplIPsfrs6rM/view?usp=drive_link
 
+Link to the description in the video:
+
+https://drive.google.com/file/d/1_LgIY1EIBVe6reEPUcCueDBzQT3f0q5U/view?usp=drive_link
+
 References:
 
 •	Yunchao Zhang et al., "Deep Learning Based Vehicle Speed Estimation on Highways"
