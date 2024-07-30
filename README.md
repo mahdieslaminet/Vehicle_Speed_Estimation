@@ -160,6 +160,9 @@ YOLOv3:
 
 https://github.com/eriklindernoren/PyTorch-YOLOv3
 
+Link to the description of the code source:
+
+https://drive.google.com/file/d/1zYLwgu20Pg3m-PnWeyT0HplIPsfrs6rM/view?usp=drive_link
 
 References:
 
