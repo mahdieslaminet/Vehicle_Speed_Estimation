@@ -182,5 +182,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 Contact:
 
-For any inquiries or further information, please contact aminba81@gmai.com.
+For any inquiries or further information, please contact.
 
